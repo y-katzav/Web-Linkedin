@@ -41,7 +41,7 @@ img{
   width: 100%;
   height: 89vh;
   position: relative;
-  background: url('../img/slide1.jpg') no-repeat center center/cover;
+  background: url('img/slide1.jpg') no-repeat center center/cover;
 }
 .showcase-top{
   position: relative;
@@ -69,11 +69,19 @@ img{
   left:50%;
   transform: translate(-50%,-50%);
 }
-.showcase-top a{
+#bt1{
   position: absolute;
   top:50%;
   right:0;
   transform: translate(-50%,-50%);z-index: 2;
+  float: right;
+}
+#bt2{
+  position: absolute;
+  top:50%;
+  right:145px;
+  transform: translate(-50%,-50%);z-index: 2;
+  float: right;
 }
 .showcase-content{
   position: relative;
@@ -126,11 +134,11 @@ img{
   text-align: center;
   border: none;
   cursor:pointer;
-  margin-right: 15%;
+
   outline: none;
   box-shadow: 0 1px rgba(0, 0, 0, 0.45);
   border-radius: 2px;
-  position: absolute;
+
 
 
 
